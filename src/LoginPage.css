@@ -1,0 +1,111 @@
+.loginContainer {
+  background-color: #f4f4f4;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginSubContainer {
+  height: fit-content;
+  width: 400px;
+  background-color: #ffffff;
+  color: #2d333a;
+  border-radius: 13px;
+  box-shadow: rgba(0, 0, 0, 0.075) 0px 2px 3px 0px,
+    rgba(0, 0, 0, 0.1) 0px 4px 6px 0px, rgb(255, 255, 255) 0px 3px 0px 0px;
+  padding: 40px 0px;
+}
+
+@media only screen and (max-width: 500px) {
+  .loginSubContainer {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .loginSubContainer {
+    min-width: 300px;
+    height: 100%;
+  }
+}
+
+.loginLogoCintainer {
+  padding: 12px 40px;
+  font-family: "Inter";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.logoHeading {
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.logoDescription {
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  word-wrap: break-word;
+  word-spacing: normal;
+  width: inherit;
+  max-width: fit-content;
+}
+
+.inputContainer,
+.inputFormContainer {
+  padding: 0px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.inputFormContainer {
+  padding: 0px 0px;
+}
+
+.inputTag {
+  width: 100%;
+  padding: 10px;
+  text-decoration: none;
+  outline: none;
+  box-sizing: border-box;
+  border: 1px solid gray;
+  border-radius: 3px;
+}
+
+.inputTag:focus {
+  outline: 1px solid #007bad;
+  border-radius: 5px;
+}
+
+.inputButton {
+  outline: none;
+  text-decoration: none;
+  background-color: #ee6047;
+  border: none;
+  border-radius: 10px;
+  color: #ffffff;
+  padding: 16px;
+}
+
+.inputButton:hover {
+  background-color: #d54329;
+}
+
+.infoText {
+  color: #ee6047;
+  text-decoration: none;
+  padding: 4px;
+  font-weight: 400;
+}
+
+.infoContainer {
+  margin: 0%;
+}
